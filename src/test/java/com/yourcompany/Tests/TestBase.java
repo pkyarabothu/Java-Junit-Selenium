@@ -32,8 +32,8 @@ import com.saucelabs.common.SauceOnDemandSessionIdProvider;
 @RunWith(ConcurrentParameterized.class)
 public class TestBase implements SauceOnDemandSessionIdProvider {
 
-    public static String username = System.getenv("SAUCE_USERNAME");
-    public static String accesskey = System.getenv("SAUCE_ACCESS_KEY");
+    public static String username = "axp_e1"
+    public static String accesskey = "ea6aad4a-9b39-494f-8c5b-67cff9faff5a";
     public static String seleniumURI;
     public static String buildTag;
     /**
